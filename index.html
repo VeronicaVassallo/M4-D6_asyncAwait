@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Await</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+</head>
+<body>
+    <section class="container-fluid">
+
+        <div class="row">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <select id="select1">
+                            <option value="name">Name</option>
+                            <option value="username">Username</option>
+                            <option value="email">Email</option>
+                        </select>
+
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="inputValue">
+                      <button class="btn btn-outline-success" type="button" onclick="checkUsers()">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+
+
+        </div>
+
+    </section>
+
+    <section class="container-fluid">
+
+        <div class="row">
+
+            <h3>Table Users</h3>
+
+            <div>
+
+
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Email</th>
+                  </tr>
+                </thead>
+                <tbody id="tBody">
+                
+                </tbody>
+              </table>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
